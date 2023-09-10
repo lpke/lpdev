@@ -34,6 +34,9 @@ module.exports = {
     'no-process-exit': 'off',
     'object-shorthand': 'off',
     'class-methods-use-this': 'off',
+    'react/jsx-no-target-blank': 'off',
+    'react/no-unescaped-entities': 'off',
+    'jsx-a11y/alt-text': 'warn',
   },
   // filetype-specific overrides
   overrides: [

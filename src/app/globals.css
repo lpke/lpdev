@@ -16,6 +16,10 @@
   }
 }
 
+::selection {
+  background: rgba(19, 236, 99, 0.3);
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
