@@ -23,7 +23,12 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@components/*": ["./src/app/_components/*"],
+      "@hooks/*": ["./src/app/_hooks/*"],
+      "@routes/*": ["./src/app/(routes)/*"],
+      "@types/*": ["./src/app/_types/*"],
+      "@utils/*": ["./src/app/_utils/*"],
+      "@/*": ["./src/app/*"]
     }
   },
   "include": [
