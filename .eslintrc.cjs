@@ -37,6 +37,7 @@ module.exports = {
     'react/self-closing-comp': 'off',
     'jsx-a11y/anchor-ambiguous-text': 'off',
     'jsx-a11y/label-has-for': 'off', // deprecated
+    'import/prefer-default-export': 'off',
     // downgrades from error to warn
     'no-unused-vars': 'warn',
     'prefer-const': 'warn',
@@ -44,6 +45,7 @@ module.exports = {
     'spaced-comment': 'warn',
     'no-multi-spaces': 'warn',
     'import/newline-after-import': 'warn',
+    'lines-around-directive': 'warn',
     'react/button-has-type': 'warn',
     '@typescript-eslint/no-unused-vars': 'warn',
     // remaining jsx-a11y rules are downgraded to warn
