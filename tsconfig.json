@@ -23,11 +23,12 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["./src/app/_components/*"],
-      "@hooks/*": ["./src/app/_hooks/*"],
-      "@routes/*": ["./src/app/(routes)/*"],
-      "@types/*": ["./src/app/_types/*"],
-      "@utils/*": ["./src/app/_utils/*"],
+      "@/components/*": ["./src/app/_components/*"],
+      "@/hooks/*": ["./src/app/_hooks/*"],
+      "@/routes/*": ["./src/app/(routes)/*"],
+      "@/styles/*": ["./src/app/_styles/*"],
+      "@/types/*": ["./src/app/_types/*"],
+      "@/utils/*": ["./src/app/_utils/*"],
       "@/*": ["./src/app/*"]
     }
   },
